@@ -1,0 +1,30 @@
+'scopeName': 'source.vfl'
+'name': 'Vfl'
+'fileTypes': ['vfl', 'vfs']
+
+'patterns': [
+    {
+        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+        'name': 'constant.numeric.vfl'
+    }
+    {
+        'match': '(@[A-Z][a-zA-Z0-9]*)\\b'
+        'name': 'entity.name.function.vfl'
+    }
+    {
+        'match': '\\b(return|if|for|End)\\b'
+        'name': 'keyword.control.vfl'
+    }
+    {
+        'match': '\\b(var|int|float)\\b'
+        'name': 'entity.name.type'
+    }
+    {
+        'match': '//.*\\n?'
+        'name': 'comment.line.double-slash.vfl'
+    }
+    {
+        'match': '\\b(print)\\b'
+        'name': 'support.function.vfl'
+    }
+]

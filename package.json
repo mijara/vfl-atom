@@ -1,0 +1,17 @@
+{
+  "name": "language-vfl",
+  "version": "0.0.0",
+  "description": "VFL support for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "license": "MIT"
+}
