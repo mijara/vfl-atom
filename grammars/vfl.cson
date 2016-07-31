@@ -12,11 +12,19 @@
         'name': 'entity.name.function.vfl'
     }
     {
+        'match': '\\b([a-z][a-zA-Z0-9]*)(?=\\s*;)\\b'
+        'name': 'support.function.vfl'
+    }
+    {
+        'match': '(#([A-Z][a-zA-Z0-9]*)?)'
+        'name': 'entity.name.type.vfl'
+    }
+    {
         'match': '\\b(return|if|for|End)\\b'
         'name': 'keyword.control.vfl'
     }
     {
-        'match': '\\b(var|int|float|void)\\b'
+        'match': '\\b(var|int|float|void|string)\\b'
         'name': 'entity.name.type'
     }
     {
@@ -26,5 +34,10 @@
     {
         'match': '\\b(print)\\b'
         'name': 'support.function.vfl'
+    }
+    {
+        'begin': '\"'
+        'end': '\"'
+        'name': 'string.quoted.double.vfl'
     }
 ]
